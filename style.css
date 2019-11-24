@@ -2,7 +2,9 @@
     margin: 0px;
     padding: 0px;
 }
-
+body {
+    background: url("background2.jpg")
+}
 .button {
    width: 75px;
    height: 50px;
@@ -10,28 +12,30 @@
    margin: 2px;
    cursor: pointer; 
    border: none;
+   border-radius: 10%
 }
 
 .textview {
     width: 305px;
-    margin: 8px;
+    margin: 5px;
     font-size: 30px;
     padding: 0px;
     border: none;
     background-color: transparent;
     color: white;
+    font-family: comic sans ms;
 }
 
 .main {
     width: 327px;
-    height: 332px;
+    height: 335px;
     background-color: #000;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
     border: 1px solid gray;
-
+    border-radius: 10px;
 }
 
 .number {
